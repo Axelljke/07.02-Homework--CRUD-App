@@ -1,0 +1,9 @@
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\bin\Release\AddressBook.exe.config
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\bin\Release\AddressBook.exe
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\bin\Release\AddressBook.pdb
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.Form1.resources
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.Properties.Resources.resources
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.csproj.GenerateResource.Cache
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.exe
+c:\users\axell\documents\visual studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.pdb
+C:\Users\Axell\Documents\Visual Studio 2015\Projects\AddressBook\AddressBook\obj\Release\AddressBook.csprojResolveAssemblyReference.cache
