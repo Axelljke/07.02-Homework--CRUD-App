@@ -10,6 +10,7 @@ namespace AddressBook
 {
     class AdressBookMember
     {
+        //свойства принято писать большой буквы
         public int number { get; set; }
         public string firstname { get; set; }
         public string secondname { get; set; }
@@ -20,9 +21,10 @@ namespace AddressBook
         {
 
         }
+        //параметры  лучше называть без кодовых значений 1,2 итд
         public AdressBookMember(int number1, string firstname1, string secondname1, int age1, string telnumber1)
         {
-            number = number1;
+            number = number1;//Number=number
             firstname = firstname1;
             secondname = secondname1;
             age = age1;
@@ -30,6 +32,7 @@ namespace AddressBook
         }
         public void SaveDataInFile(AdressBookMember[] abm)
         {
+            //когда есть вероятность ошибки, лучше использовать try
             File.Delete("data.txt");
             var sw = new StreamWriter("data.txt");
             string text = String.Empty;
@@ -41,8 +44,10 @@ namespace AddressBook
             sw.Close();
             MessageBox.Show("File saved");
         }
-        public void GetDataFromFile(string line)
+        public void GetDataFromFile(string line)//данные читаются из строки, а метод назвается будто из файла
         {
+            //слишком запутанно, много вложенностей это не очень хорошо.
+            //по моему, можно все это было заменить на string[] arr = line.Split(";")
             int i = 0;
             int x = 0;
             string buf = String.Empty;
